@@ -1,10 +1,8 @@
 <?php
-// ============================================================
 // DATABASE CONNECTION - Nexsus WMS
-// ============================================================
-// Include this file at the top of any PHP page that needs to
-// talk to the database, e.g.: require 'includes/db_connect.php';
-// ============================================================
+// the actual connection file. Goes in an includes/ folder in your repo, and any page that needs the database just adds require 'includes/db_connect.php'; at the top.
+// connects to the nexsus_wms database as a starting point for whoever's doing the backend.
+//it will talk to the database, e.g.: require 'includes/db_connect.php';
 
 // These match XAMPP's default MySQL setup - localhost, username
 // 'root', and NO password, unless you changed it in phpMyAdmin.
